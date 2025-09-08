@@ -60,7 +60,7 @@ class StudentDeveloper extends Student {
 
 const studentDeveloper = new  StudentDeveloper("이정환", "B+", 27, "TypeScript");
 console.log(studentDeveloper);
-StudentDeveloper.programming();
+studentDeveloper.programming();
 // 클래스 이름과 변수 이름이 겹치면 안된다. (유의)
 // 상속을 받아도 매개변수는  지우면 안된다.
 // 생성자에서 슈퍼라는 함술을 호출해주고 인수 전달 해줘야 한다.
