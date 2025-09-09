@@ -55,7 +55,7 @@ let var2  = getLength("12345"); //5
 
 let var3 = getLength({ length: 10 }); //10
 
-let var4 = getLength(10); 
+// let var4 = getLength(10); 
 // 제너릭 타입으로 length가 존재하는 값을 전달하는 함수
 
 // extends 키워드를 통해서 타입 변수의 조건을 달아서 제한할 수 있다.
