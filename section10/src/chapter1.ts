@@ -8,7 +8,7 @@ interface Post {
     title: string;
     tags: string[];
     content: string;
-    thumbnaiURL?: string;
+    thumbnailURL?: string;
 }
 
 type Partial<T> = {
@@ -37,7 +37,7 @@ const withThumbnailPost: Required<Post>   = {
     title: "한입 타스 후기",
     tags: ["ts"],
     content: "",
-    thumbnaiURL: "https://...",
+    thumbnailURL: "https://...",
 };
 
 /**
